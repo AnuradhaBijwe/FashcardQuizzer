@@ -1,0 +1,4 @@
+Act as senior python developer helping me to implement Data layer and validation of an existing FlashCard Quizzer CLI project
+
+Context
+I am working inside an existing starter 

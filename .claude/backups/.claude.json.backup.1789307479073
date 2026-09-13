@@ -1,0 +1,54 @@
+{
+  "numStartups": 1,
+  "customApiKeyResponses": {
+    "approved": [],
+    "rejected": [
+      "6975b3771c1.43619776"
+    ]
+  },
+  "tipsHistory": {
+    "new-user-warmup": 1,
+    "plan-mode-for-complex-tasks": 1,
+    "vscode-gpu-accel-garbled-glyphs": 1,
+    "memory-command": 1,
+    "theme-command": 1
+  },
+  "firstStartTime": "2026-09-13T12:49:42.479Z",
+  "firstStartVersion": "2.1.260",
+  "machineID": "cf8e911577b9ab845795d52b7ab8b7b8d57e6f43ee85d79649c3f23a158dc1f7",
+  "opusProMigrationComplete": true,
+  "sonnet1m45MigrationComplete": true,
+  "seenNotifications": {},
+  "hasResetAutoModeOptInForDefaultOffer": true,
+  "migrationVersion": 14,
+  "userID": "36a1ebe190b1a3dccf3b19d85e067dff353d4e87d02dddb5fc64ade7128f8ffd",
+  "changelogLastFetched": 1789303782921,
+  "shiftEnterKeyBindingInstalled": true,
+  "hasCompletedOnboarding": true,
+  "lastOnboardingVersion": "2.1.260",
+  "projects": {
+    "/voc/work/project/starter": {
+      "allowedTools": [],
+      "mcpContextUris": [],
+      "mcpServers": {},
+      "enabledMcpjsonServers": [],
+      "disabledMcpjsonServers": [],
+      "hasTrustDialogAccepted": true,
+      "hasClaudeMdExternalIncludesApproved": false,
+      "hasClaudeMdExternalIncludesWarningShown": false,
+      "lastGracefulShutdown": false,
+      "lastVersionBase": "2.1.260"
+    }
+  },
+  "lastReleaseNotesSeen": "2.1.260",
+  "closedIssuesLastChecked": 1789303852573,
+  "officialMarketplaceAutoInstallAttempted": true,
+  "officialMarketplaceAutoInstalled": true,
+  "tipLifetimeShownCounts": {
+    "new-user-warmup": 1,
+    "plan-mode-for-complex-tasks": 1,
+    "vscode-gpu-accel-garbled-glyphs": 1,
+    "memory-command": 1,
+    "theme-command": 1
+  }
+}

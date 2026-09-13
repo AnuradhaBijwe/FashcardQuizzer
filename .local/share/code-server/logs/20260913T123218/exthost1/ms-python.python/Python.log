@@ -1,0 +1,84 @@
+2026-09-13 12:54:26.089 [info] Telemetry level is off
+2026-09-13 12:54:26.089 [info] Experiments are disabled, only manually opted experiments are active.
+2026-09-13 12:54:26.089 [warning] Dir "/voc/work/.pixi/envs" is not watchable (directory does not exist)
+2026-09-13 12:54:26.089 [info] Starting Environment refresh
+2026-09-13 12:54:26.089 [info] Searching for interpreters in posix paths locator
+2026-09-13 12:54:26.089 [info] Searching for pyenv environments
+2026-09-13 12:54:26.089 [info] Searching for conda environments
+2026-09-13 12:54:26.089 [info] Searching for global virtual environments
+2026-09-13 12:54:26.089 [info] Searching for custom virtual environments
+2026-09-13 12:54:26.089 [info] Skipping ActivatedEnv Detection:  process.env.VSCODE_CLI !== '1'
+2026-09-13 12:54:26.089 [info] Skipping ActivatedEnv Detection:  process.env.VSCODE_CLI !== '1'
+2026-09-13 12:54:26.089 [info] pyenv is not installed
+2026-09-13 12:54:26.089 [info] Finished searching for pyenv environments: 9 milliseconds
+2026-09-13 12:54:26.089 [info] Finished searching for custom virtual envs: 9 milliseconds
+2026-09-13 12:54:26.089 [info] > conda info --json
+2026-09-13 12:54:26.089 [info] > hatch env show --json
+2026-09-13 12:54:26.089 [info] cwd: .
+2026-09-13 12:54:26.089 [info] > pyenv which python
+2026-09-13 12:54:26.089 [info] cwd: .
+2026-09-13 12:54:26.089 [info] Finished searching for global virtual envs: 21 milliseconds
+2026-09-13 12:54:26.089 [info] Found: /bin/python --> /bin/python3.10
+2026-09-13 12:54:26.089 [info] Found: /bin/python3 --> /bin/python3.10
+2026-09-13 12:54:26.089 [info] Found: /bin/python3.10 --> /bin/python3.10
+2026-09-13 12:54:26.089 [info] Found: /bin/python3.8 --> /bin/python3.8
+2026-09-13 12:54:26.092 [info] Found: /usr/bin/python --> /usr/bin/python3.10
+2026-09-13 12:54:26.093 [info] Found: /usr/bin/python3 --> /usr/bin/python3.10
+2026-09-13 12:54:26.093 [info] Found: /usr/bin/python3.10 --> /usr/bin/python3.10
+2026-09-13 12:54:26.093 [info] Found: /usr/bin/python3.8 --> /usr/bin/python3.8
+2026-09-13 12:54:26.107 [info] > /bin/python -I /usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/get_output_via_markers.py /usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/interpreterInfo.py
+2026-09-13 12:54:26.113 [info] > /bin/python3.8 -I /usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/get_output_via_markers.py /usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/interpreterInfo.py
+2026-09-13 12:54:26.119 [info] Finished searching for interpreters in posix paths locator: 67 milliseconds
+2026-09-13 12:54:26.132 [info] Environments refresh paths discovered (event): 80 milliseconds
+2026-09-13 12:54:26.132 [info] Environments refresh paths discovered: 80 milliseconds
+2026-09-13 12:54:26.137 [info] > /usr/bin/python -I /usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/get_output_via_markers.py /usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/interpreterInfo.py
+2026-09-13 12:54:26.140 [info] > /usr/bin/python3.8 -I /usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/get_output_via_markers.py /usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/interpreterInfo.py
+2026-09-13 12:54:26.162 [info] Environments refresh finished (event): 110 milliseconds
+2026-09-13 12:54:26.168 [info] Environment refresh took 116 milliseconds
+2026-09-13 12:54:26.174 [info] Running installed packages checker:  {
+  id: '/bin/python',
+  sysPrefix: '/usr',
+  envType: 'Global',
+  envName: '',
+  envPath: '',
+  path: '/bin/python',
+  architecture: 3,
+  sysVersion: '3.10.14 (main, Apr  6 2024, 18:45:05) [GCC 9.4.0]',
+  version: {
+    raw: '3.10.14',
+    major: 3,
+    minor: 10,
+    patch: 14,
+    build: [],
+    prerelease: [ 'final', '0' ]
+  },
+  displayName: 'Python 3.10.14 64-bit',
+  detailedDisplayName: 'Python 3.10.14 64-bit',
+  type: undefined
+} /usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/installed_check.py /voc/work/project/starter/requirements.txt
+2026-09-13 12:54:26.174 [info] > /bin/python /usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/installed_check.py ./project/starter/requirements.txt
+2026-09-13 12:54:26.175 [info] Python interpreter path: /bin/python
+2026-09-13 12:54:27.176 [info] Starting Jedi language server for work.
+2026-09-13 13:49:58.291 [info] Discover tests for workspace name: undefined - uri: /voc/work/project/starter/utils/file_handler.py
+2026-09-13 15:37:04.890 [info] Running installed packages checker:  {
+  id: '/bin/python',
+  sysPrefix: '/usr',
+  envType: 'Global',
+  envName: '',
+  envPath: '',
+  path: '/bin/python',
+  architecture: 3,
+  sysVersion: '3.10.14 (main, Apr  6 2024, 18:45:05) [GCC 9.4.0]',
+  version: {
+    raw: '3.10.14',
+    major: 3,
+    minor: 10,
+    patch: 14,
+    build: [],
+    prerelease: [ 'final', '0' ]
+  },
+  displayName: 'Python 3.10.14 64-bit',
+  detailedDisplayName: 'Python 3.10.14 64-bit',
+  type: undefined
+} /usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/installed_check.py /voc/work/project/starter/requirements.txt
+2026-09-13 15:37:04.891 [info] > /bin/python /usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/installed_check.py ./project/starter/requirements.txt

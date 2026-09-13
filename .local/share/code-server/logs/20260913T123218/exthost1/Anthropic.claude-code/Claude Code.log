@@ -1,0 +1,262 @@
+2026-09-13 12:32:28.646 [info] Claude code extension is now active?
+2026-09-13 12:32:28.646 [info] MCP Server running on port 13955 (localhost only)
+2026-09-13 12:50:52.636 [info] New WS connection from: /
+2026-09-13 12:50:52.638 [info] MCP server connected to transport
+2026-09-13 12:50:52.638 [info] [DiagnosticStreamManager] Started streaming diagnostics
+2026-09-13 12:50:52.638 [info] Registered diagnostic client: client_0
+2026-09-13 12:50:54.061 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 12:50:54.577 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 12:50:55.090 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 12:53:36.225 [info] Closing all diff tabs in the editor...
+2026-09-13 12:53:36.226 [info] Closed 0 diff tabs.
+2026-09-13 12:54:25.346 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 12:54:26.337 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 13:04:03.939 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 2 files
+2026-09-13 13:04:04.111 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 2 files
+2026-09-13 13:04:04.174 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 13:04:04.588 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 13:05:48.807 [info] Closing all diff tabs in the editor...
+2026-09-13 13:05:48.808 [info] Closed 0 diff tabs.
+2026-09-13 13:07:38.607 [info] Closing all diff tabs in the editor...
+2026-09-13 13:07:38.608 [info] Closed 0 diff tabs.
+2026-09-13 13:15:02.080 [info] Closing all diff tabs in the editor...
+2026-09-13 13:15:02.081 [info] Closed 0 diff tabs.
+2026-09-13 13:18:38.579 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 13:46:11.960 [info] Closing all diff tabs in the editor...
+2026-09-13 13:46:11.961 [info] Closed 0 diff tabs.
+2026-09-13 13:47:00.372 [info] diff from /voc/work/project/starter/utils/file_handler.py to /voc/work/project/starter/utils/file_handler.py as ✻ [Claude Code] file_handler.py (a17912) ⧉
+2026-09-13 13:47:01.188 [info] Closing all diff tabs in the editor...
+2026-09-13 13:47:01.188 [info] Closed 0 diff tabs.
+2026-09-13 13:47:01.687 [info] diff result undefined ✻ [Claude Code] file_handler.py (a17912) ⧉ {"$mid":1,"external":"file:///voc/work/project/starter/utils/file_handler.py","path":"/voc/work/project/starter/utils/file_handler.py","scheme":"file"} {"$mid":1,"external":"_claude_fs_right:/voc/work/project/starter/utils/file_handler.py","path":"/voc/work/project/starter/utils/file_handler.py","scheme":"_claude_fs_right"} {"preview":false}
+2026-09-13 13:47:01.742 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 13:47:20.104 [info] tab_closed ✻ [Claude Code] file_handler.py (a17912) ⧉
+2026-09-13 13:47:21.533 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 13:47:39.795 [info] diff from /voc/work/project/starter/utils/file_handler.py to /voc/work/project/starter/utils/file_handler.py as ✻ [Claude Code] file_handler.py (d530f9) ⧉
+2026-09-13 13:47:39.796 [info] Closing all diff tabs in the editor...
+2026-09-13 13:47:39.800 [info] Closed 0 diff tabs.
+2026-09-13 13:47:40.321 [info] diff result undefined ✻ [Claude Code] file_handler.py (d530f9) ⧉ {"$mid":1,"external":"file:///voc/work/project/starter/utils/file_handler.py","path":"/voc/work/project/starter/utils/file_handler.py","scheme":"file"} {"$mid":1,"external":"_claude_fs_right:/voc/work/project/starter/utils/file_handler.py","path":"/voc/work/project/starter/utils/file_handler.py","scheme":"_claude_fs_right"} {"preview":false}
+2026-09-13 13:48:03.954 [info] tab_closed ✻ [Claude Code] file_handler.py (d530f9) ⧉
+2026-09-13 13:48:05.371 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 13:48:06.756 [info] diff from /voc/work/project/starter/utils/file_handler.py to /voc/work/project/starter/utils/file_handler.py as ✻ [Claude Code] file_handler.py (608d4b) ⧉
+2026-09-13 13:48:06.756 [info] Closing all diff tabs in the editor...
+2026-09-13 13:48:06.759 [info] Closed 0 diff tabs.
+2026-09-13 13:48:07.292 [info] diff result undefined ✻ [Claude Code] file_handler.py (608d4b) ⧉ {"$mid":1,"external":"file:///voc/work/project/starter/utils/file_handler.py","path":"/voc/work/project/starter/utils/file_handler.py","scheme":"file"} {"$mid":1,"external":"_claude_fs_right:/voc/work/project/starter/utils/file_handler.py","path":"/voc/work/project/starter/utils/file_handler.py","scheme":"_claude_fs_right"} {"preview":false}
+2026-09-13 13:48:33.414 [info] tab_closed ✻ [Claude Code] file_handler.py (608d4b) ⧉
+2026-09-13 13:49:27.734 [info] Closing all diff tabs in the editor...
+2026-09-13 13:49:27.734 [info] Closed 0 diff tabs.
+2026-09-13 13:49:34.006 [info] diff from /voc/work/project/starter/utils/file_handler.py to /voc/work/project/starter/utils/file_handler.py as ✻ [Claude Code] file_handler.py (e3537d) ⧉
+2026-09-13 13:49:34.007 [info] Closing all diff tabs in the editor...
+2026-09-13 13:49:34.007 [info] Closed 0 diff tabs.
+2026-09-13 13:49:34.569 [info] diff result undefined ✻ [Claude Code] file_handler.py (e3537d) ⧉ {"$mid":1,"external":"file:///voc/work/project/starter/utils/file_handler.py","path":"/voc/work/project/starter/utils/file_handler.py","scheme":"file"} {"$mid":1,"external":"_claude_fs_right:/voc/work/project/starter/utils/file_handler.py","path":"/voc/work/project/starter/utils/file_handler.py","scheme":"_claude_fs_right"} {"preview":false}
+2026-09-13 13:49:57.481 [info] file_saved ✻ [Claude Code] file_handler.py (e3537d) ⧉
+2026-09-13 13:50:01.106 [info] tab_closed ✻ [Claude Code] file_handler.py (e3537d) ⧉
+2026-09-13 13:50:01.291 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 13:50:01.367 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 13:50:03.824 [info] diff from /voc/work/project/starter/data/flashcards.json to /voc/work/project/starter/data/flashcards.json as ✻ [Claude Code] flashcards.json (ce71c9) ⧉
+2026-09-13 13:50:04.105 [info] leftTempFileProvider.createFile /voc/work/project/starter/data/flashcards.json
+2026-09-13 13:50:04.365 [info] Closing all diff tabs in the editor...
+2026-09-13 13:50:04.365 [info] Closed 0 diff tabs.
+2026-09-13 13:50:04.585 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 13:50:04.756 [info] diff result undefined ✻ [Claude Code] flashcards.json (ce71c9) ⧉ {"$mid":1,"path":"/voc/work/project/starter/data/flashcards.json","scheme":"_claude_fs_left"} {"$mid":1,"external":"_claude_fs_right:/voc/work/project/starter/data/flashcards.json","path":"/voc/work/project/starter/data/flashcards.json","scheme":"_claude_fs_right"} {"preview":false}
+2026-09-13 13:50:13.407 [info] diff from /voc/work/project/starter/data/flashcards_array.json to /voc/work/project/starter/data/flashcards_array.json as ✻ [Claude Code] flashcards_array.json (f0ac50) ⧉
+2026-09-13 13:50:13.662 [info] tab_closed ✻ [Claude Code] flashcards.json (ce71c9) ⧉
+2026-09-13 13:50:13.696 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 2 files
+2026-09-13 13:50:13.761 [info] leftTempFileProvider.createFile /voc/work/project/starter/data/flashcards_array.json
+2026-09-13 13:50:14.076 [info] Closing all diff tabs in the editor...
+2026-09-13 13:50:14.076 [info] Closed 0 diff tabs.
+2026-09-13 13:50:14.291 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 13:50:14.405 [info] diff result undefined ✻ [Claude Code] flashcards_array.json (f0ac50) ⧉ {"$mid":1,"path":"/voc/work/project/starter/data/flashcards_array.json","scheme":"_claude_fs_left"} {"$mid":1,"external":"_claude_fs_right:/voc/work/project/starter/data/flashcards_array.json","path":"/voc/work/project/starter/data/flashcards_array.json","scheme":"_claude_fs_right"} {"preview":false}
+2026-09-13 13:50:25.068 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 2 files
+2026-09-13 13:50:25.113 [info] tab_closed ✻ [Claude Code] flashcards_array.json (f0ac50) ⧉
+2026-09-13 13:53:04.431 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 13:53:14.137 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 13:55:24.077 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 13:55:25.331 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 13:57:41.185 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 13:57:42.405 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 13:58:15.720 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 13:58:16.936 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 13:58:29.432 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 13:58:29.662 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 13:58:37.835 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 13:58:38.039 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:30.419 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:30.898 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:30.973 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:31.062 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:31.139 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:31.199 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:31.311 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:31.380 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:31.438 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:31.494 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:31.608 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:31.717 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:31.769 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:31.837 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:31.935 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:32.002 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:32.086 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:32.139 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:32.206 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:32.260 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:32.368 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:32.418 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:32.480 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:32.535 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:32.625 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:32.698 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:32.767 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:32.867 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:32.928 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:32.985 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:33.100 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:33.211 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:33.270 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:33.326 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:33.437 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:33.512 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:33.583 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:33.674 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:33.748 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:33.834 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:33.911 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:33.978 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:34.064 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:34.140 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:34.212 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:34.301 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:34.371 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:34.421 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:34.511 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:34.570 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:34.628 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:34.678 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:34.762 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:34.844 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:34.906 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:34.957 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:35.044 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:35.143 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:35.210 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:35.260 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:35.324 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:35.388 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:35.466 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:35.526 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:35.580 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:35.650 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:35.735 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:35.810 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:35.896 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:35.965 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:36.046 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:36.124 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:36.181 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:36.289 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:36.346 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:36.407 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:36.461 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:36.512 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:36.626 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:36.698 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:36.774 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:36.830 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:36.926 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:37.012 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:37.079 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:37.158 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:40.663 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:41.168 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:41.222 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:41.280 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:41.372 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:41.432 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:41.528 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:41.608 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:41.668 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:41.732 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:41.782 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:41.846 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:41.928 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:41.982 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:42.042 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:42.095 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:42.146 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:42.208 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:42.261 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:42.316 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:42.430 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:42.525 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:42.577 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:42.642 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:42.718 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:42.796 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:42.875 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:42.942 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:43.000 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:43.057 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:43.110 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:43.167 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:43.228 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:43.312 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:43.367 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:43.456 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:43.522 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:43.597 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:43.668 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:43.736 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:43.802 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:43.864 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:43.939 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:51.642 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:52.097 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:52.359 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:52.873 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:52.954 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:53.036 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:53.122 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:53.182 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:11:53.329 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:12:11.975 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:12:13.529 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:12:15.675 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:12:16.899 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:12:21.141 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:12:22.308 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:19:51.309 [info] Closing all diff tabs in the editor...
+2026-09-13 14:19:51.310 [info] Closed 0 diff tabs.
+2026-09-13 14:22:34.539 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:22:35.782 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 14:33:16.843 [info] Closing all diff tabs in the editor...
+2026-09-13 14:33:16.843 [info] Closed 0 diff tabs.
+2026-09-13 14:47:18.248 [info] Closing all diff tabs in the editor...
+2026-09-13 14:47:18.249 [info] Closed 0 diff tabs.
+2026-09-13 15:22:05.531 [info] Closing all diff tabs in the editor...
+2026-09-13 15:22:05.532 [info] Closed 0 diff tabs.
+2026-09-13 15:25:16.588 [info] diff from /voc/work/project/starter/utils/quiz_engine.py to /voc/work/project/starter/utils/quiz_engine.py as ✻ [Claude Code] quiz_engine.py (d8052e) ⧉
+2026-09-13 15:25:16.873 [info] leftTempFileProvider.createFile /voc/work/project/starter/utils/quiz_engine.py
+2026-09-13 15:25:17.125 [info] Closing all diff tabs in the editor...
+2026-09-13 15:25:17.125 [info] Closed 0 diff tabs.
+2026-09-13 15:25:17.557 [info] diff result undefined ✻ [Claude Code] quiz_engine.py (d8052e) ⧉ {"$mid":1,"path":"/voc/work/project/starter/utils/quiz_engine.py","scheme":"_claude_fs_left"} {"$mid":1,"external":"_claude_fs_right:/voc/work/project/starter/utils/quiz_engine.py","path":"/voc/work/project/starter/utils/quiz_engine.py","scheme":"_claude_fs_right"} {"preview":false}
+2026-09-13 15:26:58.335 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 15:26:58.378 [info] tab_closed ✻ [Claude Code] quiz_engine.py (d8052e) ⧉
+2026-09-13 15:27:02.093 [info] diff from /voc/work/project/starter/utils/quiz_engine.py to /voc/work/project/starter/utils/quiz_engine.py as ✻ [Claude Code] quiz_engine.py (c97445) ⧉
+2026-09-13 15:27:02.363 [info] Closing all diff tabs in the editor...
+2026-09-13 15:27:02.363 [info] Closed 0 diff tabs.
+2026-09-13 15:27:02.834 [info] diff result undefined ✻ [Claude Code] quiz_engine.py (c97445) ⧉ {"$mid":1,"external":"file:///voc/work/project/starter/utils/quiz_engine.py","path":"/voc/work/project/starter/utils/quiz_engine.py","scheme":"file"} {"$mid":1,"external":"_claude_fs_right:/voc/work/project/starter/utils/quiz_engine.py","path":"/voc/work/project/starter/utils/quiz_engine.py","scheme":"_claude_fs_right"} {"preview":false}
+2026-09-13 15:27:03.417 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 15:28:03.006 [info] tab_closed ✻ [Claude Code] quiz_engine.py (c97445) ⧉
+2026-09-13 15:28:05.412 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 15:28:17.188 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 15:30:02.448 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 15:37:02.550 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 15:37:03.828 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 15:37:04.703 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 15:37:05.025 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 15:42:25.827 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 2 files
+2026-09-13 15:42:25.962 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 15:42:26.028 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 15:42:26.086 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files
+2026-09-13 15:49:28.222 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 3 files
+2026-09-13 15:49:28.278 [info] [DiagnosticStreamManager] Notifying 1 clients about diagnostics change for 1 files

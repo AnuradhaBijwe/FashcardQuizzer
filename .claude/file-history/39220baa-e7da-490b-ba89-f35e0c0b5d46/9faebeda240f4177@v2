@@ -1,0 +1,16 @@
+{
+  "cards": [
+    {
+      "front": "What does PEP 8 describe?",
+      "back": "The official style guide for Python code."
+    },
+    {
+      "front": "What is a docstring?",
+      "back": "A string literal at the start of a module, class or function that documents it."
+    },
+    {
+      "front": "Which module parses JSON in the standard library?",
+      "back": "The built-in json module."
+    }
+  ]
+}

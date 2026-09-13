@@ -1,0 +1,10 @@
+[
+  {
+    "front": "What does a type hint do?",
+    "back": "It documents the expected type of a variable, parameter or return value."
+  },
+  {
+    "front": "What is a custom exception used for?",
+    "back": "Signalling an application-specific failure that callers can catch on its own terms."
+  }
+]

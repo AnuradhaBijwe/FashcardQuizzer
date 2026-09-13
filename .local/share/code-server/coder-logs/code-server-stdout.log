@@ -1,0 +1,18 @@
+[2026-09-13T12:32:18.425Z] info  code-server 4.103.2 54b33a75e0b4593b77f9a217323c4b27a42f4073
+[2026-09-13T12:32:18.426Z] info  Using user-data-dir /voc/work/.local/share/code-server
+[2026-09-13T12:32:18.441Z] info  Using config file /voc/work/.config/code-server/config.yaml
+[2026-09-13T12:32:18.441Z] info  HTTP server listening on http://0.0.0.0:8081/
+[2026-09-13T12:32:18.441Z] info    - Authentication is disabled
+[2026-09-13T12:32:18.441Z] info    - Not serving HTTPS
+[2026-09-13T12:32:18.441Z] info  Session server listening on /voc/work/.local/share/code-server/code-server-ipc.sock
+[12:32:18] 
+
+
+
+
+[12:32:18] Extension host agent started.
+[12:32:18] Started initializing default profile extensions in extensions installation folder. file:///voc/work/.local/share/code-server/extensions
+[12:32:18] Completed initializing default profile extensions in extensions installation folder. file:///voc/work/.local/share/code-server/extensions
+[12:32:22] [172.16.3.193][6e7823ef][ManagementConnection] New connection established.
+[12:32:24] [172.16.3.193][3bd02dbb][ExtensionHostConnection] New connection established.
+[12:32:24] [172.16.3.193][3bd02dbb][ExtensionHostConnection] <94> Launched Extension Host Process.
