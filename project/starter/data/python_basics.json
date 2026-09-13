@@ -1,0 +1,36 @@
+{
+  "cards": [
+    {
+      "front": "What keyword is used to define a function in Python?",
+      "back": "def"
+    },
+    {
+      "front": "Which keyword exits a loop early?",
+      "back": "break"
+    },
+    {
+      "front": "Which keyword skips to the next iteration of a loop?",
+      "back": "continue"
+    },
+    {
+      "front": "Which built-in function returns the number of items in a container?",
+      "back": "len"
+    },
+    {
+      "front": "Which keyword creates a class?",
+      "back": "class"
+    },
+    {
+      "front": "Which block runs whether or not an exception was raised?",
+      "back": "finally"
+    },
+    {
+      "front": "What is the immutable sequence type that uses parentheses?",
+      "back": "tuple"
+    },
+    {
+      "front": "Which keyword defines an anonymous inline function?",
+      "back": "lambda"
+    }
+  ]
+}
