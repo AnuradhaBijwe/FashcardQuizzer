@@ -2,7 +2,7 @@
 
 **Student Name:** Anuradha Bijwe 
 **Project Title:** Flashcard Quizzer 
-**Date:** 09/14/2026
+**Date:** 09/15/2026
 
 ## Executive Summary
 
@@ -46,13 +46,13 @@ List the AI tools/assistants you worked with:
 
 ### Collaboration Workflow
 Describe your typical workflow when working with AI:
-1. How did you structure your requests/prompts?
+- How did you structure your requests/prompts?
    I broke the project into smaller phases instead of asking AI to build everything at once. For each phase, I provided the project context, clear requirements, constraints, and examples of the expected behavior. This helped keep the responses focused and easier to review.
-3. What types of tasks did you ask AI to help with?
+- What types of tasks did you ask AI to help with?
    I used AI mainly for implementing the JSON data loader, quiz modes, Strategy and Factory design patterns, CLI interaction, error handling, and pytest test cases. I also used it to review the code and suggest improvements where needed.
-5. How did you review and validate AI-generated code?
+- How did you review and validate AI-generated code?
    After each response, I reviewed the generated files and checked whether the code matched the project requirements. I ran the application manually and used pytest to verify the expected behavior. I also checked error scenarios, quiz modes, and code coverage instead of accepting the first AI response without validation.
-7. What was your process for refining AI suggestions?
+- What was your process for refining AI suggestions?
 When the output was incomplete, too large, or did not fully match the requirements, I gave follow-up prompts with more specific instructions. I asked the AI to make only the required changes, preserve the existing working code, and fix issues identified during testing. This iterative process helped improve the final solution.
 ### Most Valuable AI Interactions
 Document 3-5 specific examples where AI assistance was particularly helpful:
@@ -106,24 +106,8 @@ Describe your approach to testing:
   I wrote both unit and integration tests using pytest. The unit tests covered JSON loading and validation, invalid data, quiz mode selection, and Adaptive Mode behavior. I also added an integration test to check a complete quiz session and verify that the different components work together correctly.
 - What was your test coverage percentage?
   I used pytest-cov to measure the test coverage. My goal was to achieve the project requirement of more than 80% coverage. The final percentage was 97%
-  ========================================================= tests coverage ==========================================================
-________________________________________ coverage: platform linux, python 3.10.14-final-0 _________________________________________
+ <img width="739" height="260" alt="image" src="https://github.com/user-attachments/assets/72d36270-ba00-4a30-826d-815a2f4eca88" />
 
-Name                             Stmts   Miss  Cover   Missing
---------------------------------------------------------------
-main.py                             93      2    98%   167, 287
-tests/__init__.py                    0      0   100%
-tests/test_file_handler.py          42      0   100%
-tests/test_flashcard_loader.py     157      0   100%
-tests/test_integration.py          304      0   100%
-tests/test_task_manager.py          48      0   100%
-utils/__init__.py                    0      0   100%
-utils/console.py                    36      4    89%   44, 46, 66, 93
-utils/file_handler.py               89      2    98%   58-59
-utils/quiz_engine.py               136     16    88%   94, 124, 159-160, 172-175, 210-211, 272, 274, 292, 356, 368-373, 379
-utils/task_manager.py               26      0   100%
---------------------------------------------------------------
-TOTAL                              931     24    97%
 - How did you ensure code reliability?
 I tested both normal and error scenarios instead of checking only successful cases. This included malformed JSON, missing required fields, different quiz modes, incorrect answers, and complete quiz sessions. I also reran the test suite after making changes to make sure existing functionality was not affected.
 - Did you use test-driven development?
