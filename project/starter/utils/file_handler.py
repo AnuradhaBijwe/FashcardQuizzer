@@ -11,7 +11,6 @@ question "is this file a usable list of flashcards?".
 """
 
 import json
-import os
 from typing import Any, Dict, List, Union
 from pathlib import Path
 
@@ -33,11 +32,11 @@ class FlashcardDataError(Exception):
 
 class FileHandler:
     """Handle file operations for data persistence."""
-    
+
     def __init__(self, data_dir: str = "data"):
         self.data_dir = Path(data_dir)
         self.data_dir.mkdir(exist_ok=True)
-    
+
     def save_data(self, filename: str, data: Dict[str, Any]) -> None:
         """Save data to a JSON file."""
         filepath = self.data_dir / filename
@@ -46,7 +45,7 @@ class FileHandler:
                 json.dump(data, file, indent=2, ensure_ascii=False)
         except (IOError, TypeError) as e:
             raise RuntimeError(f"Failed to save data to {filename}: {e}")
-    
+
     def load_data(self, filename: str) -> Dict[str, Any]:
         """Load data from a JSON file."""
         filepath = self.data_dir / filename
@@ -57,17 +56,17 @@ class FileHandler:
             return {}
         except (IOError, json.JSONDecodeError) as e:
             raise RuntimeError(f"Failed to load data from {filename}: {e}")
-    
+
     def file_exists(self, filename: str) -> bool:
         """Check if a file exists in the data directory."""
         return (self.data_dir / filename).exists()
-    
+
     def delete_file(self, filename: str) -> None:
         """Delete a file from the data directory."""
         filepath = self.data_dir / filename
         if filepath.exists():
             filepath.unlink()
-    
+
     def list_files(self) -> list[str]:
         """List all files in the data directory."""
         return [f.name for f in self.data_dir.iterdir() if f.is_file()]
@@ -95,8 +94,8 @@ def load_flashcard(file_path: Union[str, Path]) -> List[Flashcard]:
         ``front`` and ``back`` keys. Extra keys are preserved.
 
     Raises:
-        FlashcardDataError: If the file is missing or unreadable, the JSON is
-            malformed, the structure does not match one of the two supported
+        FlashcardDataError: If the file is missing, the JSON is
+            malformed, the structure does'nt match one of the two supported
             formats, or any card is missing/misusing a required field. The
             message is safe to show to the user as-is.
     """
@@ -116,7 +115,7 @@ def load_flashcard(file_path: Union[str, Path]) -> List[Flashcard]:
         ) from exc
     except UnicodeDecodeError as exc:
         raise FlashcardDataError(
-            f"{path} is not readable as UTF-8 text, so it cannot be valid JSON."
+            f"{path} is not readable as UTF-8 text, cannot be valid JSON."
         ) from exc
     except json.JSONDecodeError as exc:
         raise FlashcardDataError(
@@ -137,9 +136,9 @@ def _extract_card_list(payload: Any, path: Path) -> List[Any]:
     """
     Normalize a parsed JSON payload into a raw list of card entries.
 
-    Accepts the array format as-is and unwraps the object format's ``cards``
-    key. The entries themselves are not inspected here; that is the job of
-    :func:`_validate_flashcards`.
+    Accepts the array format as-is and unwraps the object format's
+    ``cards`` key. The entries themselves are not inspected here; that is
+    the job of :func:`_validate_flashcards`.
     """
     if isinstance(payload, list):
         return payload
@@ -153,14 +152,15 @@ def _extract_card_list(payload: Any, path: Path) -> List[Any]:
         cards = payload["cards"]
         if not isinstance(cards, list):
             raise FlashcardDataError(
-                f"The 'cards' value in {path} must be a list of flashcards, "
-                f"but it is {_json_type_name(cards)}."
+                f"The 'cards' value in {path} must be a list of "
+                f"flashcards, but it is {_json_type_name(cards)}."
             )
         return cards
 
     raise FlashcardDataError(
-        f"{path} must contain either a list of flashcards or an object with a "
-        f"'cards' list, but it contains {_json_type_name(payload)}."
+        f"{path} must contain either a list of flashcards or an object "
+        f"with a 'cards' list, but it contains "
+        f"{_json_type_name(payload)}."
     )
 
 
@@ -168,8 +168,8 @@ def _validate_flashcards(cards: List[Any], path: Path) -> List[Flashcard]:
     """
     Check that every entry is an object carrying 'front' and 'back' text.
 
-    Validation stops at the first problem so the user gets one clear message
-    that points at a specific card.
+    Validation stops at the first problem so the user gets one clear
+    message that points at a specific card.
     """
     validated: List[Flashcard] = []
 
@@ -177,19 +177,21 @@ def _validate_flashcards(cards: List[Any], path: Path) -> List[Flashcard]:
         if not isinstance(card, dict):
             raise FlashcardDataError(
                 f"Flashcard #{position} in {path} must be an object with "
-                f"'front' and 'back' fields, but it is {_json_type_name(card)}."
+                f"'front' and 'back' fields, but it is "
+                f"{_json_type_name(card)}."
             )
 
         for field in REQUIRED_FLASHCARD_FIELDS:
             if field not in card:
                 raise FlashcardDataError(
-                    f"Flashcard #{position} in {path} is missing the required "
-                    f"'{field}' field."
+                    f"Flashcard #{position} in {path} is missing the "
+                    f"required '{field}' field."
                 )
             if not isinstance(card[field], str):
                 raise FlashcardDataError(
-                    f"The '{field}' field of flashcard #{position} in {path} "
-                    f"must be text, but it is {_json_type_name(card[field])}."
+                    f"The '{field}' field of flashcard #{position} in "
+                    f"{path} must be text, but it is "
+                    f"{_json_type_name(card[field])}."
                 )
 
         validated.append(card)
@@ -201,7 +203,8 @@ def _json_type_name(value: Any) -> str:
     """Describe a Python value using JSON vocabulary for error messages."""
     if value is None:
         return "null"
-    if isinstance(value, bool):  # Checked before int: bool is a subclass of int.
+    # Checked before int, because bool is a subclass of int.
+    if isinstance(value, bool):
         return "a boolean"
     if isinstance(value, (int, float)):
         return "a number"

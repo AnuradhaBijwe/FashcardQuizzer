@@ -23,7 +23,17 @@ import random
 from abc import ABC, abstractmethod
 from collections import Counter, deque
 from dataclasses import dataclass
-from typing import ClassVar, Deque, Dict, Iterable, List, Optional, Sequence, Tuple, Type
+from typing import (
+    ClassVar,
+    Deque,
+    Dict,
+    Iterable,
+    List,
+    Optional,
+    Sequence,
+    Tuple,
+    Type,
+)
 
 from utils.file_handler import Flashcard
 
