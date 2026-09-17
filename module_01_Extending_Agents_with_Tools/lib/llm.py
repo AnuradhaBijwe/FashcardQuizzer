@@ -1,4 +1,6 @@
 from typing import List, Optional, Dict, Any
+import os
+from dotenv import load_dotenv
 from openai import OpenAI
 from lib.messages import (
     AnyMessage,
@@ -19,7 +21,14 @@ class LLM:
     ):
         self.model = model
         self.temperature = temperature
-        self.client = OpenAI(api_key=api_key) if api_key else OpenAI()
+        # self.client = OpenAI(api_key=api_key) if api_key else OpenAI()
+        self.client = OpenAI(
+            api_key=api_key or os.getenv("OPENAI_API_KEY"),
+            base_url=os.getenv(
+                "OPENAI_BASE_URL",
+                "https://openai.vocareum.com/v1",
+            ),
+        )
         self.tools: Dict[str, Tool] = {
             tool.name: tool for tool in (tools or [])
         }
